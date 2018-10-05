@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" class="terria">
 <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="copyright" content="Copyright(c) 2018 U.S.Geological Survey. All rights reserved.">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <!--<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
@@ -24,18 +24,140 @@
     <link rel="manifest" href="favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#282D32">
     <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#282D32">
+    <meta name="theme-color" content="#282D32">-->
+    <!-- Icons for Android, IOS, and Windows from WRET-->
+    <link rel="apple-touch-icon" sizes="180x180" href="//www.usgs.gov/sites/all/themes/usgs_palladium/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="//www.usgs.gov/sites/all/themes/usgs_palladium/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//www.usgs.gov/sites/all/themes/usgs_palladium/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="//www.usgs.gov/sites/all/themes/usgs_palladium/favicons/manifest.json">
+    <link rel="mask-icon" href="//www.usgs.gov/sites/all/themes/usgs_palladium/favicons/safari-pinned-tab.svg" color="#008457">
+    <link rel="shortcut icon" href="//www.usgs.gov/sites/all/themes/usgs_palladium/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#008457">
+    <meta name="msapplication-TileImage" content="//www.usgs.gov/sites/all/themes/usgs_palladium/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#008457">
 
-    <title>USGS TerriaMap</title>
+    <title>U.S. Geological Survey GAP Species Terria Map</title>
     <link rel="stylesheet" type="text/css" href="build/TerriaMap.css">
+    <link href="public/css/common.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="public/css/custom.css" rel="stylesheet" type="text/css" media="screen" />
 
+    <!--<title>USGS TerriaMap</title>
+    <link rel="stylesheet" type="text/css" href="build/TerriaMap.css">-->
     <!-- Leaflet -->
     <script>L_PREFER_CANVAS = true;</script>
+
+
+    <!--<script>
+    (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-TKQR8KP');
+    </script>-->
 </head>
 
 <body>
+    <!-- BEGIN USGS Applications Header Template -->
+    <header id="navbar" class="header-nav" role="banner">
+        <div class="tmp-container">
+            <!-- primary navigation bar -->
+            <!-- search bar-->
+            <div class="header-search">
+                <a class="logo-header" href="https://www.usgs.gov/index.html" title="Home">
+                    <img class="img" src="public/img/logo.png" alt="Home" />
+                </a>
+            </div>
+            <!-- end search bar-->
+        </div>
+        <!-- end header-container-->
+    </header>
+    <!-- END USGS Applications Header Template -->
+    <div id="maincontent">
+        <!-- opening div for your main content -->
 
-<div id='ui'></div>
-  <script src="build/TerriaMap.js"></script>
+        <div id='ui'></div>
+        <script src="build/TerriaMap.js"></script>
+
+    </div> <!-- / div for your main content-->
+    <!-- BEGIN USGS Footer Template -->
+    <footer class="footer">
+        <div class="tmp-container">
+            <!-- .footer-wrap -->
+            <!-- .footer-doi -->
+            <div class="footer-doi">
+                <!-- footer nav links -->
+                <ul class="menu nav">
+                    <li class="first leaf menu-links menu-level-1"><a href="https://www.doi.gov/privacy">DOI Privacy Policy</a></li>
+                    <li class="leaf menu-links menu-level-1"><a href="https://www.usgs.gov/laws/policies_notices.html">Legal</a></li>
+                    <li class="leaf menu-links menu-level-1"><a href="https://www2.usgs.gov/laws/accessibility.html">Accessibility</a></li>
+                    <li class="leaf menu-links menu-level-1"><a href="https://www.usgs.gov/sitemap.html">Site Map</a></li>
+                    <li class="last leaf menu-links menu-level-1"><a href="https://answers.usgs.gov/">Contact USGS</a></li>
+                </ul>
+                <!--/ footer nav links -->
+            </div>
+            <!-- /.footer-doi -->
+            <hr>
+            <!-- .footer-utl-links -->
+            <div class="footer-doi no-small">
+                <ul class="menu nav">
+                    <li class="first leaf menu-links menu-level-1"><a href="https://www.doi.gov/">U.S. Department of the Interior</a></li>
+                    <li class="leaf menu-links menu-level-1"><a href="https://www.doioig.gov/">DOI Inspector General</a></li>
+                    <li class="leaf menu-links menu-level-1"><a href="https://www.whitehouse.gov/">White House</a></li>
+                    <li class="leaf menu-links menu-level-1"><a href="https://www.whitehouse.gov/omb/e-gov/">E-gov</a></li>
+                    <li class="leaf menu-links menu-level-1"><a href="https://www.whitehouse.gov/open">Open Government</a></li>
+                    <li class="leaf menu-links menu-level-1"><a href="https://www.doi.gov/pmb/eeo/no-fear-act">No Fear Act</a></li>
+                    <li class="last leaf menu-links menu-level-1"><a href="https://www2.usgs.gov/foia">FOIA</a></li>
+                </ul>
+            </div>
+            <!-- /.footer-utl-links -->
+            <!-- .footer-social-links -->
+            <div class="footer-social-links">
+                <ul class="social">
+                    <li class="follow">Follow</li>
+                    <li class="twitter">
+                        <a href="https://twitter.com/usgs" target="_blank">
+                            <i class="fa fa-twitter-square"><span class="only">Twitter</span></i>
+                        </a>
+                    </li>
+                    <li class="facebook">
+                        <a href="https://facebook.com/usgeologicalsurvey" target="_blank">
+                            <i class="fa fa-facebook-square"><span class="only">Facebook</span></i>
+                        </a>
+                    </li>
+                    <li class="googleplus">
+                        <a href="https://plus.google.com/112624925658443863798/posts" target="_blank">
+                            <i class="fa fa-google-plus-square"><span class="only">Google+</span></i>
+                        </a>
+                    </li>
+                    <li class="github">
+                        <a href="https://github.com/usgs" target="_blank">
+                            <i class="fa fa-github"><span class="only">GitHub</span></i>
+                        </a>
+                    </li>
+                    <li class="flickr">
+                        <a href="https://flickr.com/usgeologicalsurvey" target="_blank">
+                            <i class="fa fa-flickr"><span class="only">Flickr</span></i>
+                        </a>
+                    </li>
+                    <li class="youtube">
+                        <a href="http://youtube.com/usgs" target="_blank">
+                            <i class="fa fa-youtube-play"><span class="only">YouTube</span></i>
+                        </a>
+                    </li>
+                    <li class="instagram">
+                        <a href="https://instagram.com/usgs" target="_blank">
+                            <i class="fa fa-instagram"><span class="only">Instagram</span></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.footer-social-links -->
+        </div>
+        <!-- /.footer-wrap -->
+    </footer>
+    <!-- END USGS Footer Template- -->
+    <!-- Google Tag Manager (noscript). Must be included on all your pages. -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKQR8KP"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
 </body>
 </html>

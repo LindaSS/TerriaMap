@@ -5,7 +5,7 @@
     parameters: {
         disableSplitter: false,
         autoPlay: false,
-        bingMapsKey: "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
+        bingMapsKey: null,
         googleUrlShortenerKey: null,
         googleAnalyticsKey: null,
         googleAnalyticsOptions: null,
@@ -29,10 +29,10 @@
             text: "U.S. Geological Survey",
             link: "http://www.usgs.gov"
         },
-        appName: "USGS Terria Map",
-        brandBarElements: [
-            "<table cellspacing=\"20\"><tr><td style=\"padding-right:18px\"> <a target=\"_blank\" href=\"https://www.usgs.gov/\"><img vertical-align=\"middle\"  src=\"https://github.com/zdefne-usgs/TerriaMap/blob/master/wwwroot/images/USGS_brand_logo_small.png?raw=true\" style=\"height:42;border:0\" title=\"U.S. Geological Survey\" /></a></td></tr></table>"
-        ],
+        appName: "Gap Analysis Project Species Viewer",
+      brandBarElements: [
+        "<div id=\"titleBar\" > <a target=\"_blank\" href=\"https://gapanalysis.usgs.gov/\">Gap Analysis Project Species Viewer</a></div>"
+      ],
         supportEmail: "zdefne@usgs.gov",
         proj4ServiceBaseUrl: "proj4def/",
         //feedbackUrl: "feedback",

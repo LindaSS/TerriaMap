@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    padding-top: 100px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+/*     padding-top: 100px; Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     padding-bottom: 20px;
     margin-bottom: 60px; /* Margin bottom by footer height */
 }
@@ -54,12 +54,61 @@ ul {
 }
 
 @media (min-width: 768px) {
-	.footer {
-		height: 90px;
-		padding-top: 10px;
-	}
+
+    .tjs-standard-user-interface__map {
+        height: calc(100vh - 160px);
+    }
+  
 }
 
+.tjs-mobile-header__group-right {
+    position: absolute;
+    right: 55px;
+}
+
+.tjs-mobile-header__group-left {
+    position: absolute;
+    right: 0px !important;
+    left:auto;
+}
+
+@media (max-width: 767px) {
+
+    .tjs-map-navigation__map-navigation {
+        bottom: 115px !important;
+    }
+
+    .logo-header img {
+        height: 44px;
+        margin-top: 4px;
+    }
+
+    .footer-doi.no-small {
+        display: none;
+    }
+
+    .tmp-container {
+        line-height: 5px;
+    }
+
+    .logo-header {
+        display: block;
+    }
+    footer.footer .footer-social-links ul {
+        float: left;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 960px) {
+    .footer-doi.no-small {
+        display: none;
+    }
+    footer.footer .footer-social-links ul {
+        float: left;
+        padding-left:0px;
+    }
+}
 /* navbar */
 
 .navbar {
@@ -289,4 +338,38 @@ p.no-indent {
 
 .panel-group .panel-heading+.panel-collapse>.panel-body, .panel-group .panel-heading+.panel-collapse>.list-group {
 	border-top: none;
+}
+
+/*tweaks for VID*/
+
+/*.tjs-branding__branding {
+    display: none;
+}*/
+
+.tjs-menu-bar__menu-area {
+    top: 100px;
+}
+
+.tjs-mobile-header__mobile-header {
+        background-color: transparent;
+}
+
+.tjs-map-navigation__map-navigation {
+    top: 120px;
+}
+.tjs-map-column__location-distance {
+    bottom: auto;
+    left: auto;
+    top: 2px;
+    right : 3px;
+}
+#titleBar a {
+    color: white;
+    font: bold 1.3em Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#titleBar {
+    width:100%;
+    text-align:center;
+
 }
