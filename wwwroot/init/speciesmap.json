@@ -1,0 +1,475 @@
+{
+  "homeCamera": {
+    "north": 49,
+    "east": -67,
+    "south": 24,
+    "west": -124
+  },
+  "baseMapName": "Natural Earth II",
+  "initialViewerMode": "2D",
+  "corsDomains": [ "sciencebase.usgs.gov" ],
+  "catalog": [
+    {
+      "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5ba29320e4b08583a5c6180f/MapServer",
+      "type": "esri-mapServer",
+      "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+      "name": "American Black Bear (Ursus americanus) RAQGAx Habitat Map",
+      "layers": "1",
+      "opacity": 0.7,
+      "isEnabled": true,
+      "isOpen": true,
+      "zoomOnEnable": true,
+      "info": [
+        {
+          "name": "Licence",
+          "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+        }
+      ]
+    },
+    {
+      "name": "Gap examples",
+      "type": "group",
+      "isPromoted": true,
+      "isOpen": true,
+      "preserveOrder": true,
+      "items": [
+        {
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5ba29320e4b08583a5c6180f/MapServer",
+          "type": "esri-mapServer",
+          "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+          "name": "American Black Bear (Ursus americanus) Range Map",
+          "layers": "0",
+          "opacity": 0.3,
+          "isEnabled": true,
+          "isOpen": true,
+          "zoomOnEnable": true,
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+
+        {
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5ba29320e4b08583a5c6180f/MapServer",
+          "type": "esri-mapServer-group",
+          "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+          "name": "American Black Bear (Ursus americanus)",
+          "isEnabled": true,
+          "isOpen": true,
+          "zoomOnEnable": true,
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "name": "Boundary Data",
+          "type": "group",
+          "isPromoted": false,
+          "isOpen": true,
+          "items": [
+            //{
+            //  "name": "American Kestrel (Falco sparverius) Known Range Map",
+            //  "isEnabled": true,
+            //  "type": "wms",
+            //  "url": "https://www.sciencebase.gov:443/geoserver/CONUS_Range_2001v1/wms",
+            //  "layers": "Species_CONUS_Range_2001v1",
+            //  "opacity": 0.3,
+            //  "parameters": {
+            //    "cql_filter": "SppCode = 'bAMKEx'",
+            //    "tiled": true
+            //  },
+            //  "zoomOnEnable": false,
+            //  "dataUrlType": "none",
+            //  "description": "[American Kestrel (Falco sparverius) bAMKEx_CONUS_2001v1 Range Map](https://www.sciencebase.gov/catalog/item/59f5ec58e4b063d5d307e64d)",
+            //  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+            //  "info": [
+            //    {
+            //      "name": "Dislcaimer",
+            //      "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty."
+            //    }
+            //  ]
+            //},
+            {
+              "name": "Ecological",
+              "type": "group",
+              "isOpen": false,
+              "preserveOrder": true,
+              "items": [
+                {
+                  "name": "Omernik Level III Ecoregions for the US",
+                  "isEnabled": false,
+                  "type": "wms",
+                  "url": "https://my-beta.usgs.gov/geoserver/bcb/wms",
+                  "layers": "ecoregion_geom",
+                  "style": "black_outline_remove_alaska",
+                  "description": "[Omernik Level III Ecoregions for the US](https://www.sciencebase.gov/catalog/item/55c77f7be4b08400b1fd82d4)",
+                  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+                  "parameters": {
+                    "tiled": true
+                  },
+                  "info": [
+                    {
+                      "name": "License",
+                      "content": "Dunno"
+                    }
+                  ]
+                },
+                {
+                  "name": "2015 LCC Network Areas",
+                  "isEnabled": false,
+                  "type": "esri-mapServer",
+                  "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/55b943ade4b09a3b01b65d78/MapServer",
+                  "opacity": 0.6,
+                  "description": "[2015 LCC Network Areas](https://www.sciencebase.gov/catalog/item/55b943ade4b09a3b01b65d78)",
+                  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+                  "parameters": {
+                    "tiled": true
+                  },
+                  "info": [
+                    {
+                      "name": "License",
+                      "content": "Dunno"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Protected Areas Database of the US ver 1.4",
+              "type": "group",
+              "isPromoted": false,
+              "isOpen": false,
+              "preserveOrder": true,
+              "items": [
+                {
+                  "name": "GAP Status Code",
+                  "isEnabled": false,
+                  "type": "esri-mapServer",
+                  "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/GAP_Status_Code/MapServer",
+                  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+                  "parameters": {
+                    "tiled": true
+                  },
+                  "attribution": {
+                    "text": "GAP Status Code Metadata URL",
+                    "link": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/GAP_Status_Code/MapServer"
+                  },
+                  "info": [
+                    {
+                      "name": "License",
+                      "content": "Dunno"
+                    }
+                  ]
+                },
+                {
+                  "name": "Manager Name",
+                  "isEnabled": false,
+                  "type": "esri-mapServer",
+                  "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Fine_Agency_Level/MapServer",
+                  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+                  "parameters": {
+                    "tiled": true
+                  },
+                  "attribution": {
+                    "text": "Manager Name Metadata URL",
+                    "link": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Fine_Agency_Level/MapServer"
+                  },
+                  "info": [
+                    {
+                      "name": "License",
+                      "content": "Dunno"
+                    }
+                  ]
+                },
+                {
+                  "name": "Manager Type",
+                  "isEnabled": false,
+                  "type": "esri-mapServer",
+                  "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/General_Agency_Level/MapServer",
+                  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+                  "parameters": {
+                    "tiled": true
+                  },
+                  "attribution": {
+                    "text": "Manager Type Metadata URL",
+                    "link": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/General_Agency_Level/MapServer"
+                  },
+                  "info": [
+                    {
+                      "name": "License",
+                      "content": "Dunno"
+                    }
+                  ]
+                },
+                {
+                  "name": "Protected Areas by Manager",
+                  "isEnabled": false,
+                  "type": "esri-mapServer",
+                  "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Protected_Areas_by_Manager/MapServer",
+                  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+                  "parameters": {
+                    "tiled": true
+                  },
+                  "attribution": {
+                    "text": "Protected Areas by Manager Metadata URL",
+                    "link": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Protected_Areas_by_Manager/MapServer"
+                  },
+                  "info": [
+                    {
+                      "name": "License",
+                      "content": "Dunno"
+                    }
+                  ]
+                },
+                {
+                  "name": "Public Access",
+                  "isEnabled": false,
+                  "type": "esri-mapServer",
+                  "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Public_Access/MapServer",
+                  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+                  "parameters": {
+                    "tiled": true
+                  },
+                  "attribution": {
+                    "text": "Public Access Metadata URL",
+                    "link": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Public_Access/MapServer"
+                  },
+                  "info": [
+                    {
+                      "name": "License",
+                      "content": "Dunno"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Governmental",
+              "type": "group",
+              "isPromoted": false,
+              "isOpen": false,
+              "preserveOrder": true,
+              "items": [
+                {
+                  "name": "USA Counties",
+                  "flatten": true,
+                  "isOpen": false,
+                  "type": "wms",
+                  "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/4f4e4a2ee4b07f02db615738?service=wfs&request=getcapabilities&version=1.0.0",
+                  "layers": "US_County_Boundaries",
+                  "style": "highlight",
+                  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+                  "description": "[USA County Boundaries](https://www.sciencebase.gov/catalog/item/4f4e4a2ee4b07f02db615738)",
+                  "parameters": {
+                    "tiled": true
+                  },
+                  "attribution": {
+                    "text": "USA County Boundaries",
+                    "link": "https://www.sciencebase.gov/catalog/item/4f4e4a2ee4b07f02db615738"
+                  },
+                  "info": [
+                    {
+                      "name": "License",
+                      "content": "Dunno"
+                    }
+                  ]
+                },
+                {
+                  "name": "USA States",
+                  "flatten": true,
+                  "isOpen": false,
+                  "type": "wms",
+                  "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/4f4e4783e4b07f02db4837ce?service=wms&request=getcapabilities&version=1.3.0",
+                  "layers": "US_States",
+                  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+                  "description": "[USA States](https://www.sciencebase.gov/catalog/item/4f4e4783e4b07f02db4837ce)",
+                  "parameters": {
+                    "tiled": true
+                  },
+                  "attribution": {
+                    "text": "USA States",
+                    "link": "https://www.sciencebase.gov/catalog/item/4f4e4783e4b07f02db4837ce"
+                  },
+                  "info": [
+                    {
+                      "name": "License",
+                      "content": "Dunno"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+        //,
+        //{
+        //  "name": "Alabama Map Turtle (Graptemys pulchra) Known Range Map",
+        //  "isEnabled": true,
+        //  "type": "wms",
+        //  "url": "https://www.sciencebase.gov/geoserver/CONUS_Range_2001v1/ows",
+        //  "layers": "Species_CONUS_Range_2001v1",
+        //  "opacity": 0.7,
+        //  "parameters": {
+        //    "cql_filter": "SppCode='bAMKEx'",
+        //    "tiled": false
+        //  },
+        //  "zoomOnEnable": false,
+        //  //"isRequiredForRendering": false,
+        //  //"isGeoServer": true,
+        //  "dataUrlType": "none",
+        //  "description": "[Alabama Map Turtle (Graptemys pulchra) rALTUx_CONUS_2001v1 Range Map](https://www.sciencebase.gov/catalog/item/59f5e1f3e4b063d5d307dbbf)",
+        //  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+        //  "info": [
+        //    {
+        //      "name": "Dislcaimer",
+        //      "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty."
+        //    }
+        //  ]
+        //},
+        //{
+        //  "name": "Gap Analysis Project Species Habitat Maps",
+        //  "type": "group",
+        //  "preserveOrder": true,
+        //  "items": [
+        //    {
+        //      "layers": "bAMKEx",
+        //      "isEnabled": true,
+        //      "isLegendVisible": false,
+        //      "parameters": {
+        //        "tiled": true
+        //      },
+        //      "dataUrlType": "none",
+        //      "description": "[U.S. Geological Survey - Gap Analysis Project Species Habitat Maps CONUS_2001](https://www.sciencebase.gov/catalog/item/527d0a83e4b0850ea0518326)",
+        //      "name": "American Kestrel",
+        //      "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+        //      "url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001v1/ows",
+        //      "type": "wms",
+        //      "info": [
+        //        {
+        //          "name": "Licence",
+        //          "content": "Dunno"
+        //        }
+        //      ]
+        //    },
+        //    {
+        //      "layers": "bPEFAx",
+        //      "isEnabled": true,
+        //      "isShown": false,
+        //      "isLegendVisible": false,
+        //      "parameters": {
+        //        "tiled": true
+        //      },
+        //      "dataUrlType": "none",
+        //      "description": "[U.S. Geological Survey - Gap Analysis Project Species Habitat Maps CONUS_2001](https://www.sciencebase.gov/catalog/item/527d0a83e4b0850ea0518326)",
+        //      "name": "Peregrine Falcon",
+        //      "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+        //      "url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001v1/ows",
+        //      "type": "wms",
+        //      "info": [
+        //        {
+        //          "name": "Licence",
+        //          "content": "Dunno"
+        //        }
+        //      ]
+        //    }
+        //  ]
+        //}
+        //,
+        //{
+        //  "layers": "class",
+        //  "parameters": {
+        //    "tiled": true
+        //  },
+        //  "dataUrlType": "none",
+        //  "clipToRectangle": true,
+        //  "description": "[GAP/LandFire](https://www.sciencebase.gov/catalog/item/573cc51be4b0dae0d5e4b0c5)",
+        //  "name": "LandFire Class",
+        //  "rectangle": [
+        //    -120,
+        //    32,
+        //    -109,
+        //    58
+        //  ],
+        //  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+        //  "url": "https://www.sciencebase.gov:443/geoserver/nvcs/ows",
+        //  "type": "wms",
+        //  "info": [
+        //    {
+        //      "name": "Licence",
+        //      "content": "Dunno"
+        //    }
+        //  ]
+        //},
+        //{
+        //  "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Protected_Areas_by_Manager/MapServer",
+        //  "type": "esri-mapServer",
+        //  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+        //  "name": "Protected Areas (by Manager)",
+        //  "rectangle": [
+        //    -120,
+        //    32,
+        //    -109,
+        //    58
+        //  ],
+        //  "info": [
+        //    {
+        //      "name": "Licence",
+        //      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+        //    }
+        //  ]
+        //},
+        //{
+        //  "layers": "bAMKEx,bPEFAx",
+        //  "parameters": {
+        //    "tiled": true
+        //  },
+        //  "dataUrlType": "none",
+        //  "clipToRectangle": true,
+        //  "description": "[U.S. Geological Survey - Gap Analysis Project Species Habitat Maps CONUS_2001](https://www.sciencebase.gov/catalog/item/527d0a83e4b0850ea0518326)",
+        //  "name": "Gap Analysis Project Species Habitat Maps (all)",
+        //  "rectangle": [
+        //    -120,
+        //    32,
+        //    -109,
+        //    58
+        //  ],
+        //  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+        //  "url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001v1/ows",
+        //  "legendUrl": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001v1/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=aABSAx",
+        //  "type": "wms",
+        //  "info": [
+        //    {
+        //      "name": "Licence",
+        //      "content": "Dunno"
+        //    }
+        //  ]
+        //},
+        //{
+        //  "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+        //  "description": "[U.S. Geological Survey - Gap Analysis Project Species Habitat Maps CONUS_2001](https://www.sciencebase.gov/catalog/item/527d0a83e4b0850ea0518326)",
+        //  "flatten": true,
+        //  "isOpen": false,
+        //  "name": "Gap Analysis Project Species Habitat Maps (group)",
+        //  "parameters": {
+        //    "tiled": true
+        //  },
+        //  "url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001v1/ows?service=WMS&request=GetCapabilities",
+        //  "titleField": "name",
+        //  "type": "wms-getCapabilities",
+        //  "info": [
+        //    {
+        //      "name": "Licence",
+        //      "content": "Dunno"
+        //    }
+        //  ]
+        //}
+
+      ]
+    }
+  ]
+}

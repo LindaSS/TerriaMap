@@ -1,0 +1,39 @@
+{ "catalog":[{
+"name": "USGS Gap Analysis Project (CONUS_2001)",
+"type": "group",
+"isPromoted": true,
+"isOpen": true,
+"preserveOrder": true,
+"items":[{
+"name": "Key Deer (Odocoileus virginianus clavium) Predicted Habitat Map",
+"isEnabled": true,
+"type": "wms",
+"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001v1/ows",
+"layers": "mWTDEc",
+"opacity": 0.5,
+"keepOnTop": true,
+"parameters": { "tiled": true },
+"zoomOnEnable": true,
+"dataUrlType": "none",
+"description": "[Key Deer (Odocoileus virginianus clavium) mWTDEc_CONUS_2001v1 Habitat Map](https://www.sciencebase.gov/catalog/item/58fa811ce4b0b7ea54525c26)",
+"dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+"info":[{
+"name": "Dislcaimer", "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty." }]
+},
+{
+"name": "Key Deer (Odocoileus virginianus clavium) Known Range Map",
+"isEnabled": true,
+"type": "wms",
+"url": "https://www.sciencebase.gov:443/geoserver/CONUS_Range_2001v1/ows",
+"layers": "Species_CONUS_Range_2001v1",
+"opacity": 0.3,
+"parameters": { "cql_filter": "SppCode = 'mWTDEc'", "tiled": true },
+"zoomOnEnable": false,
+"dataUrlType": "none",
+"description": "[Key Deer (Odocoileus virginianus clavium) mWTDEc_CONUS_2001v1 Range Map](https://www.sciencebase.gov/catalog/item/59f5eba6e4b063d5d307e053)",
+"dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+"info":[{
+"name": "Dislcaimer", "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty." }]
+}
+]
+}]}

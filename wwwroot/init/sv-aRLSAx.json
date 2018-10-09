@@ -1,0 +1,39 @@
+{ "catalog":[{
+"name": "USGS Gap Analysis Project (CONUS_2001)",
+"type": "group",
+"isPromoted": true,
+"isOpen": true,
+"preserveOrder": true,
+"items":[{
+"name": "Red-legged Salamander (Plethodon shermani) Predicted Habitat Map",
+"isEnabled": true,
+"type": "wms",
+"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001v1/ows",
+"layers": "aRLSAx",
+"opacity": 0.5,
+"keepOnTop": true,
+"parameters": { "tiled": true },
+"zoomOnEnable": true,
+"dataUrlType": "none",
+"description": "[Red-legged Salamander (Plethodon shermani) aRLSAx_CONUS_2001v1 Habitat Map](https://www.sciencebase.gov/catalog/item/58fa423ee4b0b7ea54524ae9)",
+"dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+"info":[{
+"name": "Dislcaimer", "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty." }]
+},
+{
+"name": "Red-legged Salamander (Plethodon shermani) Known Range Map",
+"isEnabled": true,
+"type": "wms",
+"url": "https://www.sciencebase.gov:443/geoserver/CONUS_Range_2001v1/ows",
+"layers": "Species_CONUS_Range_2001v1",
+"opacity": 0.3,
+"parameters": { "cql_filter": "SppCode = 'aRLSAx'", "tiled": true },
+"zoomOnEnable": false,
+"dataUrlType": "none",
+"description": "[Red-legged Salamander (Plethodon shermani) aRLSAx_CONUS_2001v1 Range Map](https://www.sciencebase.gov/catalog/item/59f5e28de4b063d5d307df47)",
+"dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+"info":[{
+"name": "Dislcaimer", "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty." }]
+}
+]
+}]}
