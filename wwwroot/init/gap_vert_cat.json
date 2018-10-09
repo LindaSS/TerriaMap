@@ -14,7 +14,7 @@
   },
   "services": [],
   "homeCamera": { "west": -128, "south": 22, "east": -65, "north": 51 },
-  "baseMapName": "Bing Maps Roads",
+  "baseMapName": "Natural Earth II",
   "viewerMode": "2d",
   "catalog": [
     {
