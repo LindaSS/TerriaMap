@@ -1,0 +1,39 @@
+{ "catalog":[{
+"name": "USGS Gap Analysis Project (CONUS_2001)",
+"type": "group",
+"isPromoted": true,
+"isOpen": true,
+"preserveOrder": true,
+"items":[{
+"name": "Blue-winged Teal (Anas discors) Predicted Habitat Map",
+"isEnabled": true,
+"type": "wms",
+"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001v1/ows",
+"layers": "bBWTEx",
+"opacity": 0.5,
+"keepOnTop": true,
+"parameters": { "tiled": true },
+"zoomOnEnable": true,
+"dataUrlType": "none",
+"description": "[Blue-winged Teal (Anas discors) bBWTEx_CONUS_2001v1 Habitat Map](https://www.sciencebase.gov/catalog/item/58fa476fe4b0b7ea54524dfc)",
+"dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+"info":[{
+"name": "Dislcaimer", "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty." }]
+},
+{
+"name": "Blue-winged Teal (Anas discors) Known Range Map",
+"isEnabled": true,
+"type": "wms",
+"url": "https://www.sciencebase.gov:443/geoserver/CONUS_Range_2001v1/ows",
+"layers": "Species_CONUS_Range_2001v1",
+"opacity": 0.3,
+"parameters": { "cql_filter": "SppCode = 'bBWTEx'", "tiled": true },
+"zoomOnEnable": false,
+"dataUrlType": "none",
+"description": "[Blue-winged Teal (Anas discors) bBWTEx_CONUS_2001v1 Range Map](https://www.sciencebase.gov/catalog/item/59f5ec7ae4b063d5d307e777)",
+"dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+"info":[{
+"name": "Dislcaimer", "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty." }]
+}
+]
+}]}
