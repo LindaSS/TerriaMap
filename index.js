@@ -97,15 +97,17 @@ terria.start({
 
         //temp
         //var createAustraliaBaseMapOptions = require('terriajs/lib/ViewModels/createAustraliaBaseMapOptions');
-        var createGlobalBaseMapOptions = require('terriajs/lib/ViewModels/createGlobalBaseMapOptions');
+        //var createGlobalBaseMapOptions = require('terriajs/lib/ViewModels/createGlobalBaseMapOptions');
+        var createGlobalBaseMapOptions = require('./lib/ViewModels/createPadusBaseMapOptions');
         var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
         // Create the various base map options.
         //var australiaBaseMaps = createAustraliaBaseMapOptions(terria);
         var globalBaseMaps = createGlobalBaseMapOptions(terria, configuration.bingMapsKey);
-
+        console.log(globalBaseMaps);
+        
         //var allBaseMaps = australiaBaseMaps.concat(globalBaseMaps);
         var allBaseMaps = globalBaseMaps;
-        selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial with Labels', true);
+        selectBaseMap(terria, allBaseMaps, 'USGS Topo', true);
 
         // Show a modal disclaimer before user can do anything else.
         if (defined(terria.configParameters.globalDisclaimer)) {
