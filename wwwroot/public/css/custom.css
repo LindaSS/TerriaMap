@@ -55,9 +55,12 @@ ul {
 
 @media (min-width: 768px) {
 
-    .tjs-standard-user-interface__map {
+    #ui {
         height: calc(100vh - 160px);
     }
+    /*.tjs-standard-user-interface__map {
+        height: calc(100vh - 160px);
+    }*/
   
 }
 
@@ -98,6 +101,9 @@ ul {
         float: left;
         padding-left: 0px;
     }
+    #titleBar {
+        display: none;
+    }
 }
 
 @media (max-width: 960px) {
@@ -108,6 +114,7 @@ ul {
         float: left;
         padding-left:0px;
     }
+
 }
 /* navbar */
 
@@ -373,3 +380,11 @@ p.no-indent {
     text-align:center;
 
 }
+.leaflet-bottom, .cesium-widget-credits {
+    bottom: 160px !important;
+}
+
+.tjs-setting-panel__btn--base-map.tjs-setting-panel__is-active {
+    border: 1px solid #08abd5;
+}
+

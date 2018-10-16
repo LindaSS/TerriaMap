@@ -4,7 +4,9 @@
     "programs.communications.gov.au",
     "www.asris.csiro.au",
     "mapsengine.google.com",
-	"sciencebase.usgs.gov"
+    "sciencebase.usgs.gov",
+    "gis1.usgs.gov",
+    "my-beta.usgs.gov"
   ],
   "homeCamera": {
     "west": -124,
