@@ -16,7 +16,7 @@
   },
   "services": [],
   "homeCamera": { "west": -128, "south": 22, "east": -65, "north": 51 },
-  "baseMapName": "Natural Earth II",
+  "baseMapName": "USGS Topo",
   "viewerMode": "2d",
   "catalog": [
     {
