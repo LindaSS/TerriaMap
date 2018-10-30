@@ -1,6 +1,5 @@
 {"catalog":[
-{"name":"USGS GAP Species Data (CONUS_2001)","type":"group","isOpen":true,"preserveOrder":true,"items":[
-
+{"name":"USGS GAP Species Data (CONUS_2001)","type":"group","isOpen":true,"isPromoted":true,"preserveOrder":true,"items":[
 {"name":"Amphibians (Class Amphibia)","type":"group","isOpen":false,"preserveOrder":true,"items":[
 {"name":"Frogs & Toads (Order Anura)","type":"group","isOpen":false,"preserveOrder":true,"items":[
 {"name":"Toads (Family Bufonidae)","type":"group","isOpen":false,"preserveOrder":true,"items":[
