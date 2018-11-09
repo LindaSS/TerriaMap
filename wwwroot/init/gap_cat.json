@@ -10,7 +10,7 @@
   ],
   "services": [],
   "homeCamera": { "west": -128, "south": 22, "east": -65, "north": 51 },
-  "baseMapName": "Natural Earth II",
+  "baseMapName": "Positron (Light)",
   "viewerMode": "2d",
   "catalog": [
     {
