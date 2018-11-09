@@ -8,12 +8,6 @@
     "gis1.usgs.gov",
     "my-beta.usgs.gov"
   ],
-  "homeCamera": {
-    "west": -124,
-    "south": 24,
-    "east": -66,
-    "north": 50
-  },
   "services": [],
   "homeCamera": { "west": -128, "south": 22, "east": -65, "north": 51 },
   "baseMapName": "USGS Topo",

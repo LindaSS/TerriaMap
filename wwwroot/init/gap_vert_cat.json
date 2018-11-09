@@ -252,7 +252,7 @@
 		   "flatten": true,
 		   "isOpen": false,
            "type": "wms-getCapabilities",
-           "url": "https://www.sciencebase.gov/geoserver/CONUS_Range_2001v1/wms?service=WMS&request=getcapabilities",
+           "url": "https://www.sciencebase.gov/geoserver/CONUS_Range_2001v1_individual/wms?service=WMS&request=getcapabilities",
            "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
            "description": "[U.S. Geological Survey - Gap Analysis Project Species Range Maps CONUS_2001](https://www.sciencebase.gov/catalog/item/5951527de4b062508e3b1e79)",
            "parameters": {

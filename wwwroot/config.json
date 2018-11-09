@@ -5,7 +5,9 @@
   parameters: {
     disableSplitter: false,
     autoPlay: false,
-    bingMapsKey: null,
+    useCesiumIonTerrain: false,
+    useCesiumIonBingImagery: false,
+	bingMapsKey: null,
     googleUrlShortenerKey: null,
     googleAnalyticsKey: null,
     googleAnalyticsOptions: null,
@@ -30,10 +32,11 @@
       link: "http://www.usgs.gov"
     },
     appName: "Gap Analysis Project Species Viewer",
+	//tabbedCatalog: true,
     brandBarElements: [
       "<div id=\"titleBar\" > <a target=\"_blank\" href=\"https://gapanalysis.usgs.gov/\">Gap Analysis Project Species Viewer</a></div>"
     ],
-    supportEmail: "zdefne@usgs.gov",
+    supportEmail: "sgwilliams@usgs.gov",
     proj4ServiceBaseUrl: "proj4def/",
     //feedbackUrl: "feedback",
 
@@ -42,7 +45,6 @@
     mobileDefaultViewerMode: "2d",
     // Enable experimental features, since its nice to have the bleeding edge.
     // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
-    experimentalFeatures: true,
-    useCesiumIonTerrain: false
+    experimentalFeatures: false
   }
 }
