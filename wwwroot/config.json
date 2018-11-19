@@ -1,6 +1,6 @@
 {
   initializationUrls: [
-    "viewerMode-2d", "gap_cat_spp"
+    "viewerMode-2d", "gap_cat"
   ],
   parameters: {
     disableSplitter: false,
