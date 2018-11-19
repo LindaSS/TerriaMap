@@ -8,7 +8,7 @@
 "name": "Striped Crayfish Snake (Regina alleni) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "Striped Crayfish Snake (Regina alleni) rSCSNx v1",
 "opacity": 0.5,
 "keepOnTop": true,

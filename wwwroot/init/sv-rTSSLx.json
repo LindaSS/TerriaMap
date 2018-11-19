@@ -8,7 +8,7 @@
 "name": "Twin-spotted Spiny Lizard (Sceloporus bimaculosus) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "Twin-spotted Spiny Lizard (Sceloporus bimaculosus) rTSSLx v1",
 "opacity": 0.5,
 "keepOnTop": true,

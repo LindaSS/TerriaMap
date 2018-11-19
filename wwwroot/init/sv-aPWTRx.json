@@ -8,7 +8,7 @@
 "name": "Pine Woods Treefrog (Hyla femoralis) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "Pine Woods Treefrog (Hyla femoralis) aPWTRx v1",
 "opacity": 0.5,
 "keepOnTop": true,

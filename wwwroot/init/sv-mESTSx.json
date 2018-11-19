@@ -8,7 +8,7 @@
 "name": "Elliot's Short-tailed Shrew (Blarina hylophaga) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "Elliot's Short-tailed Shrew (Blarina hylophaga) mESTSx v1",
 "opacity": 0.5,
 "keepOnTop": true,

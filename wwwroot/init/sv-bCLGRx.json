@@ -8,7 +8,7 @@
 "name": "Clark's Grebe (Aechmophorus clarkii) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "Clark's Grebe (Aechmophorus clarkii) bCLGRx v1",
 "opacity": 0.5,
 "keepOnTop": true,

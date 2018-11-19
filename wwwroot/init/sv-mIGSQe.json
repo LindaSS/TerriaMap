@@ -8,7 +8,7 @@
 "name": "Southern Idaho Ground Squirrel (Urocitellus brunneus endemicus) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "Southern Idaho Ground Squirrel (Urocitellus brunneus endemicus) mIGSQe v1",
 "opacity": 0.5,
 "keepOnTop": true,

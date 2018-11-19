@@ -8,7 +8,7 @@
 "name": "Mohave Rattlesnake (Crotalus scutulatus) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "Mohave Rattlesnake (Crotalus scutulatus) rMORAx v1",
 "opacity": 0.5,
 "keepOnTop": true,

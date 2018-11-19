@@ -8,7 +8,7 @@
 "name": "Shrew-mole (Neurotrichus gibbsii) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "Shrew-mole (Neurotrichus gibbsii) mSHMOx v1",
 "opacity": 0.5,
 "keepOnTop": true,

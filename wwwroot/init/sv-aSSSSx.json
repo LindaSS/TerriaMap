@@ -8,7 +8,7 @@
 "name": "San Simeon Slender Salamander (Batrachoseps incognitus) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "San Simeon Slender Salamander (Batrachoseps incognitus) aSSSSx v1",
 "opacity": 0.5,
 "keepOnTop": true,

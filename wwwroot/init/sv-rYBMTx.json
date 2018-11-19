@@ -8,7 +8,7 @@
 "name": "Yellow-blotched Map Turtle (Graptemys flavimaculata) Predicted Habitat Map",
 "isEnabled": true,
 "type": "wms",
-"url": "https://www.sciencebase.gov:443/geoserver/CONUS_HabMap_2001/wms",
+"url": "https://www.sciencebase.gov/geoserver/CONUS_HabMap_2001/wms",
 "layers": "Yellow-blotched Map Turtle (Graptemys flavimaculata) rYBMTx v1",
 "opacity": 0.5,
 "keepOnTop": true,
