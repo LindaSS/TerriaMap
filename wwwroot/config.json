@@ -1,21 +1,21 @@
 {
-  initializationUrls: [
+  "initializationUrls": [
     "viewerMode-2d", "gap_cat"
   ],
-  parameters: {
-    disableSplitter: false,
-    autoPlay: false,
-    useCesiumIonTerrain: false,
-    useCesiumIonBingImagery: false,
-	bingMapsKey: null,
-    googleUrlShortenerKey: null,
-    googleAnalyticsKey: null,
-    googleAnalyticsOptions: null,
-    disclaimer: {
-      text: "Disclaimer: The suggestions and illustrations included in this map are intended to support scientific research; however, they do not guarantee the safety of an individual or structure. The contributors and sponsors of this product do not assume liability for any injury, death, property damage, or other effects because of using this map. This map must not be used for navigation or precise spatial analysis. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Powered by TerriaJS. https://terria.io/ "
+  "parameters": {
+    "disableSplitter": false,
+    "autoPlay": false,
+    "useCesiumIonTerrain": false,
+    "useCesiumIonBingImagery": false,
+	  "bingMapsKey": null,
+    "googleUrlShortenerKey": null,
+    "googleAnalyticsKey": null,
+    "googleAnalyticsOptions": null,
+    "disclaimer": {
+      "text": "Disclaimer: The suggestions and illustrations included in this map are intended to support scientific research; however, they do not guarantee the safety of an individual or structure. The contributors and sponsors of this product do not assume liability for any injury, death, property damage, or other effects because of using this map. This map must not be used for navigation or precise spatial analysis. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Powered by TerriaJS. https://terria.io/ "
     },
-    printDisclaimer: {
-      text: "Disclaimer: The suggestions and illustrations included in this map are intended to support scientific research; however, they do not guarantee the safety of an individual or structure. The contributors and sponsors of this product do not assume liability for any injury, death, property damage, or other effects because of using this map. This map must not be used for navigation or precise spatial analysis. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Powered by TerriaJS. https://terria.io/ "
+    "printDisclaimer": {
+      "text": "Disclaimer: The suggestions and illustrations included in this map are intended to support scientific research; however, they do not guarantee the safety of an individual or structure. The contributors and sponsors of this product do not assume liability for any injury, death, property damage, or other effects because of using this map. This map must not be used for navigation or precise spatial analysis. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Powered by TerriaJS. https://terria.io/ "
     },
     //globalDisclaimer: {
       //confirmationRequired: false,
@@ -27,24 +27,29 @@
       //devHostRegex: "\\b(staging|preview|test|dev)\\.",
       //enableOnLocalhost: false // If false, don't show this when running on localhost
     //},
-    developerAttribution: {
-      text: "U.S. Geological Survey",
-      link: "http://www.usgs.gov"
+    "developerAttribution": {
+      "text": "U.S. Geological Survey",
+      "link": "http://www.usgs.gov"
     },
-    appName: "Gap Analysis Project Species Viewer",
+    "appName": "Gap Analysis Project Species Viewer",
 	//tabbedCatalog: true,
-    brandBarElements: [
+    "brandBarElements": [
       "<div id=\"titleBar\" > <a target=\"_blank\" href=\"https://gapanalysis.usgs.gov/\">Gap Analysis Project Species Viewer</a></div>"
     ],
-    supportEmail: "sgwilliams@usgs.gov",
-    proj4ServiceBaseUrl: "proj4def/",
+    "supportEmail": "sgwilliams@usgs.gov",
+    //"proj4ServiceBaseUrl": "proj4def/",
     //feedbackUrl: "feedback",
 
     // Default mobile viewer mode when loading the map for the first time on mobile platforms.
     // Options are: "3DTerrain", "3DSmooth", "2D"
-    mobileDefaultViewerMode: "2d",
+    "mobileDefaultViewerMode": "2d",
     // Enable experimental features, since its nice to have the bleeding edge.
     // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
-    experimentalFeatures: false
+    "experimentalFeatures": false,
+    "proj4ServiceBaseUrl": null,
+    "regionMappingDefinitionsUrl": null,
+    "conversionServiceBaseUrl": null,
+    "corsProxyBaseUrl": null,
+    "proxyableDomainsUrl": null
   }
 }
