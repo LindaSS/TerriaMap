@@ -387,4 +387,13 @@ p.no-indent {
 .tjs-setting-panel__btn--base-map.tjs-setting-panel__is-active {
     border: 1px solid #08abd5;
 }
+/*Hide thead search bar*/
+.tjs-search-box__searchData {
+    display: none;
+}
+
+/*@media all and (max-width:1596.75px) and (min-width:768px)*/
+.tjs-feature-info-panel__panel {
+        top: 150px;
+}
 
