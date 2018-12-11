@@ -1,5 +1,4 @@
-{
-  "corsDomains": [
+{"corsDomains": [
     "corsproxy.com",
     "programs.communications.gov.au",
     "www.asris.csiro.au",
@@ -8,15 +7,11 @@
     "gis1.usgs.gov",
     "my-beta.usgs.gov"
   ],
-  "homeCamera": {
-    "west": -124,
-    "south": 24,
-    "east": -66,
-    "north": 50
-  },
-  "services": [],
-  "baseMapName": "USGS Topo",
-  "viewerMode": "2d",
+"homeCamera":{"west":-124,"south":24,"east":-66,"north":50},
+"services":[],
+"baseMapName":"Natural Earth II", 
+//"baseMapName":"USGS Topo",
+"viewerMode":"2d",
 "catalog":[
 {"name":"USGS GAP Species Data (CONUS_2001)","type":"group","isOpen":true,"isPromoted":true,"preserveOrder":true,"items":[
 {"name":"Amphibians (Class Amphibia)","type":"group","isOpen":false,"preserveOrder":true,"items":[
