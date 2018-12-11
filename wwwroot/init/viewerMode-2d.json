@@ -1,4 +1,20 @@
 {
-    "catalog": [],
-    "viewerMode": "2d"
+  "catalog": [],
+  "baseMapName": "USGSTopo",
+  "viewerMode": "2d",
+  "homeCamera": {
+    "north": 50,
+    "east": -66,
+    "south": 24,
+    "west": -124
+  },
+  "services": [],
+  "corsDomains": [
+    "sciencebase.usgs.gov",
+    "mapsengine.usgs.gov",
+    "srfs.wr.usgs.gov",
+    "gis1.usgs.gov",
+    "basemap.nationalmap.gov"
+
+  ]
 }
