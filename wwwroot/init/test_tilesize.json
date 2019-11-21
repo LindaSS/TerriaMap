@@ -1,0 +1,63 @@
+{
+catalog: [
+{
+name: "Protected Areas Database of the U.S. v2.0",
+isOpen: true,
+preserveOrder: true,
+type: "group",
+items: [
+{
+name: "Old - PAD-US 2.0 Manager Name",
+isEnabled: true,
+isShown: false,
+isLegendVisible: false,
+type: "esri-mapServer",
+url: "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996787e4b0b8a7f6289256/MapServer",
+attribution: {
+text: "USGS",
+link: "http://www.usgs.gov"
+}
+},
+{
+name: "New - PAD-US 2.0 Manager Name",
+isEnabled: true,
+isShown: false,
+isLegendVisible: false,
+type: "esri-mapServer",
+url: "https://gis1.usgs.gov/arcgis/rest/services/padus2/manager_name/MapServer",
+attribution: {
+text: "USGS",
+link: "http://www.usgs.gov"
+}
+},
+{
+name: "New - PAD-US 2.0 Manager Name Dynamic",
+isEnabled: true,
+isShown: false,
+isLegendVisible: false,
+tileWidth: 1024,
+tileHeight: 1024,
+type: "esri-mapServer",
+url: "https://gis1.usgs.gov/arcgis/rest/services/padus2/manager_name_dynamic/MapServer",
+attribution: {
+text: "USGS",
+link: "http://www.usgs.gov"
+}
+}
+]
+}
+],
+homeCamera: {
+west: -125.025,
+south: 24.043,
+east: -66.797,
+north: 49.838
+},
+initialCamera: {
+west: -125.025,
+south: 24.043,
+east: -66.797,
+north: 49.838
+},
+viewerMode: "2d"
+}
